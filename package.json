@@ -1,0 +1,19 @@
+{
+  "name": "router-resolution-web",
+  "version": "0.1.0",
+  "description": "多层路由匹配解释工作台：快照化路由表、分层异步匹配、淘汰证据链、版本冻结与回归重放",
+  "type": "module",
+  "main": "./src/public/index.js",
+  "exports": {
+    ".": "./src/public/index.js",
+    "./http": "./src/public/http.js",
+    "./core": "./src/core/index.js"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
